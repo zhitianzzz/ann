@@ -1,3 +1,8 @@
+//force mobile landscape view
+if (screen.orientation) {
+  screen.orientation.lock('landscape');
+}
+
 //INDEX PG
 //show alert
 function showAlert() {
@@ -24,7 +29,7 @@ function handleSearch(query) {
         searchResult.textContent = 'myFriend🕷️';
     } 
     else if (query === 'zlTbqVfurer') {
-        searchResult.href = 'myGodIsHere.html';
+        searchResult.href = 'myGodIsHereGate.html';
         searchResult.textContent = 'myGodIsHere';
     } 
     else if (query === 'zlWboObevat') {
