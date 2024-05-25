@@ -1,0 +1,103 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+p{
+    color: white;
+}
+
+/* myFamily PG */
+.chatPg{
+    display: block;
+    margin: 5vw 20vw;
+}
+
+@media screen and (max-width: 820px) {
+    .chatPg{
+        margin: 10vw 10vw;
+    }
+}
+
+.chatBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.chatAvatarSend{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.chatAvatarReceive{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+
+.chatDate{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Courier New', 'Times New Roman', Times, serif;
+}
+
+.chatSend {
+    display: block; 
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Courier New', 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.chatReceive {
+    display: block; 
+    text-align: right;
+    margin-left: auto;
+    font-family: 'Courier New', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    .chatBox{
+        margin-bottom: 20px;
+    }
+    
+    .chatAvatarSend{
+        width: 50px;
+        height: 50px;
+    }
+
+    .chatAvatarReceive{
+        width: 50px;
+        height: 50px;
+    }
+
+    .chatSend{
+        font-size: 13px;
+
+    }
+
+    .chatReceive{
+        font-size: 13px;
+   
+    }
+
+    .chatDate{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }   
+}
