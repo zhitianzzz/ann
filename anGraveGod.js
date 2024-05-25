@@ -33,3 +33,26 @@ function toGate() {
 function toEntrance() {
     window.location.href = "myGodIsHereP5/entrance.html";
 }
+
+//pray
+var prayCount = 0;
+
+function pray() {
+    prayCount++;
+    if (prayCount === 1) {
+        var name = prompt('Tell me your name, mortal.');
+        alert('You have been seen, ' + name + '.');
+        prompt(name + ', what brings you here?');
+        alert('You have been heard, ' + name + '.');
+        hasPrayed = true;
+    } else if (prayCount === 2) {
+        alert(name + ', you are too greedy.');
+    }  else if (prayCount === 3) {
+        alert('Mortal, you are too greedy.');
+    }  else if (prayCount === 4) {
+        alert('Mortal, you will be punished for your greed.');
+    } else {
+        alert('Mortal, you will be punished for your greed.');
+        document.body.innerHTML = '';
+    }
+}
