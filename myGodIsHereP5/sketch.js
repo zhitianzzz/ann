@@ -45,7 +45,7 @@ function mousePressed() {
 
   if (mouseX > boxX && mouseX < boxX + boxSize 
     && mouseY > boxY && mouseY < boxY + windowHeight) {
-    window.location.href = '../../myGodIsHere.html';
+    window.location.href = 'https://zhitianzzz.github.io/ashes/myGodIsHere.html';
   } else if (mouseX >= 0 && mouseX <= width * 0.2 && mouseY >= 0 && mouseY <= height) {
     window.location.href = '../myGodIsHerePathA.html';
   } else if (mouseX >= width * 0.8 && mouseX <= width && mouseY >= 0 && mouseY <= height) {
