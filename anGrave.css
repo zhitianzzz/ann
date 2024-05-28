@@ -469,3 +469,65 @@ input[type=text] {
     margin: 6vh;
     text-align: center;
 }
+
+/* myHome Pg */
+#imageContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 0 4px;
+}
+
+.onWay {
+    width: 100%;
+    height: auto;
+}
+
+#star{
+    color: white;
+    font-size: 3px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.diaryText{
+    font-size: 20px;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    margin: 6vh;
+    text-align: center;
+}
+
+/* myLife PG */
+.hiddenBody{
+    display: block;
+    margin: 10vh 0;
+}
+
+.hiddenText{
+    color: white;
+    margin: 0 60vw 100vh 10vh;
+    font-size: 10px;
+    font-family: 'Courier New', 'Times New Roman', Times, serif;    
+    text-align: left;
+    cursor: default;
+}
+
+.hiddenText:last-of-type{
+    margin-bottom: 0;
+}
+
+.hiddenBody::after {
+    content: "";
+    display: block;
+    height: 6vh; 
+}
+
+@media screen and (max-width: 768px) {
+    .hiddenBody{
+        display: block;
+        margin: 8vh 0;
+    }
+
+    .hiddenText{
+        margin: 0 10vw 100vh 5vh;
+    }
+}
