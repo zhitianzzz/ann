@@ -503,7 +503,7 @@ input[type=text] {
 }
 
 .hiddenText{
-    color: white;
+    color: black;
     margin: 0 60vw 100vh 10vh;
     font-size: 10px;
     font-family: 'Courier New', 'Times New Roman', Times, serif;    
